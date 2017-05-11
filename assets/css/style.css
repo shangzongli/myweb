@@ -1,0 +1,335 @@
+﻿
+
+/* 基本 */
+body {
+    font-family: 'Microsoft Yahei';
+}
+
+section {
+    padding:40px 0px 40px 0px;
+}
+p {
+    line-height:30px;
+    font-size:16px;
+    padding:10px 0px 10px 0px;
+}
+ h1 {
+font-weight: 900;
+color:rgb(255, 15, 101);
+}
+
+
+/* 主要目录main */
+#main {
+    background: url(../img/QQ图片20170508171054.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main .overlay {
+        padding-top:100px;
+        background:rgba(0, 0, 0, 0.7);
+        min-height:790px;
+    }
+   /*图片切换*/
+#main .main-img {
+     max-height:200px;
+     border:5px solid #FF0F65;
+     content:url('../img/sad.jpg');
+     cursor:pointer;
+}
+ #main .main-img:hover {
+  content:url('../img/smile.jpg');
+  cursor:pointer;
+}
+#main .main-img-2 {
+     max-height:200px;
+   border:5px solid rgb(255, 15, 101);
+  content:url('../img/smile.jpg');  /*SMILE IMAGE URL  - RIGHT SIDE IMAGE*/
+  cursor:pointer;
+}
+#main .main-img-2:hover {
+  content:url('../img/sad.jpg');  /*SAD IMAGE URL ON HOVER - RIGHT SIDE IMAGE*/
+  cursor:pointer;
+}
+  /*图片切换结束*/
+#main h2 {
+    font-weight: 400;
+    color:#fff;
+    padding: 30px 0px 0px 0px;
+}
+
+#main small {
+        color:#fff;
+    }
+.icon-round {
+font-size: 30px;
+height: 60px;
+width: 60px;
+line-height: 60px;
+color: #fff;
+border: 2px solid #fff;
+text-align: center;
+border-radius: 50%;
+-webkit-transition: 400ms;
+-moz-transition: 400ms;
+-o-transition: 400ms;
+transition: 400ms;
+cursor: pointer;
+}
+    .icon-round:hover {
+        background-color:rgb(255, 15, 101);
+    }
+
+.icon-round-active {
+      background-color:rgb(255, 15, 101);
+}
+
+/* 技能部分 */
+
+.myStat {
+    display: inline-block;
+}
+
+    #skill h4 {
+        font-weight: 600;
+        color:rgb(255, 15, 101);
+}
+   #skill {
+       background: url(../img/skill.jpg) no-repeat center center;
+       padding: 0;
+       background-size: cover;
+       color:#fff;
+       background-attachment: fixed;
+   }
+    #skill .overlay {
+        padding-top:50px;
+        background-color:rgba(0,0,0,0.6);
+        min-height: 450px;
+    }
+.circliful {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+.circle-info, .circle-info-half {
+    color: #000000;
+    z-index: 2;
+}
+.self-0{
+    margin-left: 15px;
+}
+.self-1>li{
+    font-size:18px;
+    margin:10px 15px;
+}
+/* 个人资料 */
+.top {
+   width: 85%;
+margin: 0px auto;
+}
+span.round-tabs{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 30%;
+    background: white;
+    text-align: center;
+    font-size: 25px;
+}
+/*导航图标*/
+span.round-tabs.one{
+    color: rgb(34, 194, 34);
+    border: 2px solid rgb(34, 194, 34);
+}
+.top li.active span.round-tabs.one{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+.top span.round-tabs.two{
+    color: #febe29;
+    border: 2px solid #febe29;
+}
+.top li.active span.round-tabs.two{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+span.round-tabs.three{
+    color: #3e5e9a;
+    border: 2px solid #3e5e9a;
+}
+.top li.active span.round-tabs.three{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+span.round-tabs.four{
+    color: #f1685e;
+    border: 2px solid #f1685e;
+}
+
+.top li.active span.round-tabs.four{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+
+span.round-tabs.five{
+    color: #999;
+    border: 2px solid #999;
+}
+
+.top li.active span.round-tabs.five{
+    background: #fff !important;
+    border: 2px solid #ddd;
+}
+.nav-tabs > li {
+    width: 20%;
+}
+/*三角形*/
+.top li.active:after {
+    content: " ";
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #FF0F65;
+
+}
+/*导航栏*/
+.nav-tabs > li a{
+   width: 70px;
+   height: 70px;
+   margin: 20px auto;
+   border-radius: 100%;
+   padding: 0;
+}
+/*导航栏与面板距离*/
+.tab-pane{
+   position: relative;
+   padding-top: 25px;
+}
+
+.head{
+     font-size: 30px;
+     padding-bottom: 5px;
+ }
+/*面板资料框*/
+.center-block{
+    width: 60%;
+    border-radius: 15px;
+}
+.center-block p{
+    text-indent: 8%;
+}
+
+
+/*作品项目=*/
+
+#project {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#project .row{
+    margin-top: 50px;
+}
+    #project i {
+        margin-right:5px;
+        color:#fff;
+        font-size:20px;
+    }
+
+#project .col-xs-12.col-sm-4.col-md-4 {
+    padding:0;
+}
+
+.project-wrap {
+    position: relative;
+    cursor: pointer;
+}
+
+.project-wrap img {
+    width: 100%;
+
+}
+    .project-wrap .project-inner h3 {
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+.project-wrap .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(255, 15, 101);
+    color: #fff;
+    transition: opacity 1s;
+    padding: 30px;
+}
+.project-wrap:hover .overlay {
+    opacity: 1;
+}
+
+.project-wrap .overlay .preview {
+        display: inline-block;
+        height: 35px;
+        line-height: 35px;
+        color: #fff;
+}
+
+
+
+  /*邮件*/
+  #mail {
+
+    background: url(../img/小乔.jpg) no-repeat center center;
+     padding: 0;
+background-size: cover;
+background-attachment: fixed;
+color:#fff;
+
+
+}
+    #mail .overlay {
+        background:rgba(0, 0, 0, 0.60);
+    }
+#mail .form-control {
+    background-color:transparent;
+}
+#message{
+     height: 100px;
+}
+/*底部*/
+#footer-sec h3{
+    color: rgb(255, 15, 101);
+}
+#footer-sec i{
+    color: rgb(255, 15, 101);
+    margin-right:10px;
+}
+ /*快速返回*/
+a.scrollup {
+background: rgb(255, 15, 101);
+height: 32px;
+width: 32px;
+color: #fff;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 9999;
+opacity:0.7;
+}
+/*按钮*/
+.btn_style {
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.70);
+}

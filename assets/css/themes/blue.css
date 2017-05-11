@@ -1,0 +1,56 @@
+﻿
+ h1 {
+color:#00ADAD;
+}
+
+ /*按钮*/
+
+ .btn_style {
+   border-color: #00ADAD;
+}
+ .btn_style:hover {
+     color:#00ADAD;
+ }
+
+ /*主要目录部分*/
+ #main .main-img {
+   border:5px solid #00ADAD;
+}
+ #main .main-img-2 {
+   border:5px solid #00ADAD;
+}
+ .icon-round:hover {
+     background-color:#00ADAD;
+    }
+
+.icon-round-active {
+      background-color:#00ADAD;
+}
+
+
+/* 技能部分 */
+    #skill h4 {
+color:#00ADAD;
+}
+
+
+.project-wrap .overlay {
+    background-color: #00ADAD;
+}
+
+ /*个人信息*/
+ .center-block{
+     border: 5px solid rgba(0,173,173,0.3);
+ }
+ /*底部*/
+#footer-sec h3{
+    color: #00ADAD;
+}
+#footer-sec i{
+    color: #00ADAD;
+}
+ /*快速返回*/
+a.scrollup {
+background: #00ADAD;
+
+}
